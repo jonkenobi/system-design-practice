@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" modified="2022-08-20T07:53:52.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2x5kecBcmagVTuR62pSY" version="14.6.11" type="github">
+  <diagram id="Z-yj_argTJjEadmIUwvs" name="Page-1">
+    <mxGraphModel dx="782" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-1" value="Tweeter" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-2" value="Follower" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="90" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-3" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="300" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-4" value="POST tweet&lt;br&gt;{&lt;br&gt;tweet user, tweet msg,&lt;br&gt;timestamp&lt;br&gt;location,&amp;nbsp;&lt;br&gt;}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="155" y="105" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L9cxDZLKYXbgiQS6-WOH-5" target="L9cxDZLKYXbgiQS6-WOH-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L9cxDZLKYXbgiQS6-WOH-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="270" y="200" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L9cxDZLKYXbgiQS6-WOH-7" target="L9cxDZLKYXbgiQS6-WOH-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="257" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-7" value="cluster of servers&lt;br&gt;Process saving to database" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-11" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="720" y="200" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="L9cxDZLKYXbgiQS6-WOH-12" target="L9cxDZLKYXbgiQS6-WOH-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="L9cxDZLKYXbgiQS6-WOH-12" target="L9cxDZLKYXbgiQS6-WOH-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-12" value="Pub/Sub" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="375" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.833;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="L9cxDZLKYXbgiQS6-WOH-7" target="L9cxDZLKYXbgiQS6-WOH-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.089;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="L9cxDZLKYXbgiQS6-WOH-15" target="L9cxDZLKYXbgiQS6-WOH-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-15" value="cluster of servers&lt;br&gt;Determining if text is to be pushed to certain users&lt;br&gt;&lt;br&gt;e.g. Followers of Tweeter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="421" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-20" value="Do ML on DB to find relevant tweets&amp;nbsp;&lt;br&gt;to recommend&amp;nbsp;&lt;br&gt;users&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-23" value="Follower" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="70" y="430" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L9cxDZLKYXbgiQS6-WOH-26" value="Publish tweet to&amp;nbsp;&lt;br&gt;subscribers&lt;br&gt;(e.g. followers of Tweeter)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="395" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
