@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T07:53:52.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2x5kecBcmagVTuR62pSY" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T08:14:29.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="d3mtRiZl5G5ajxhrYJRq" version="14.6.11" type="github">
   <diagram id="Z-yj_argTJjEadmIUwvs" name="Page-1">
-    <mxGraphModel dx="782" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,6 +73,9 @@
         </mxCell>
         <mxCell id="L9cxDZLKYXbgiQS6-WOH-26" value="Publish tweet to&amp;nbsp;&lt;br&gt;subscribers&lt;br&gt;(e.g. followers of Tweeter)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="130" y="395" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wR5q-t_oWCZxLNSL_v0o-1" value="Ref reading:&amp;nbsp;https://www.geeksforgeeks.org/design-twitter-a-system-design-interview-question/" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="620" width="520" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
